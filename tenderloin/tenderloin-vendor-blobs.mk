@@ -35,27 +35,11 @@ PRODUCT_COPY_FILES += \
     vendor/hp/tenderloin/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/hp/tenderloin/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/hp/tenderloin/proprietary/lib/libcamera.so:system/lib/libcamera.so \
-    vendor/hp/tenderloin/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/hp/tenderloin/proprietary/lib/libCB.so:system/lib/libCB.so \
-    vendor/hp/tenderloin/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
-    vendor/hp/tenderloin/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
-    vendor/hp/tenderloin/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/hp/tenderloin/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/hp/tenderloin/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/hp/tenderloin/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/hp/tenderloin/proprietary/lib/libdiag.so:system/lib/libdiag.so \
-    vendor/hp/tenderloin/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-    vendor/hp/tenderloin/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
-    vendor/hp/tenderloin/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/hp/tenderloin/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/hp/tenderloin/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/hp/tenderloin/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
-    vendor/hp/tenderloin/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/hp/tenderloin/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-    vendor/hp/tenderloin/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/hp/tenderloin/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
     vendor/hp/tenderloin/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/hp/tenderloin/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/hp/tenderloin/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/hp/tenderloin/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/hp/tenderloin/proprietary/etc/firmware/wm8958_mbc.wfw:system/etc/firmware/wm8958_mbc.wfw \
@@ -86,4 +70,18 @@ PRODUCT_COPY_FILES += \
     vendor/hp/tenderloin/proprietary/bin/sensord:system/bin/sensord \
     vendor/hp/tenderloin/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/hp/tenderloin/proprietary/bin/thermald:system/bin/thermald \
-    vendor/hp/tenderloin/proprietary/bin/dcvsd:system/bin/dcvsd
+    vendor/hp/tenderloin/proprietary/bin/dcvsd:system/bin/dcvsd \
+    vendor/hp/tenderloin/proprietary/vendor/lib/egl/eglsubAndroid.so:system/egl/eglsubAndroid.so \
+    vendor/hp/tenderloin/proprietary/vendor/lib/egl/libEGL_adreno.so:system/egl/libEGL_adreno.so \
+    vendor/hp/tenderloin/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/egl/libGLESv1_CM_adreno.so \
+    vendor/hp/tenderloin/proprietary/vendor/lib/egl/libGLESv2S3D_adreno.so:system/egl/libGLESv2S3D_adreno.so \
+    vendor/hp/tenderloin/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/egl/libGLESv2_adreno.so \
+    vendor/hp/tenderloin/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/egl/libq3dtools_adreno.so \
+    vendor/hp/tenderloin/proprietary/vendor/lib/libC2D2.so:system/libC2D2.so \
+    vendor/hp/tenderloin/proprietary/vendor/lib/libCB.so:system/libCB.so \
+    vendor/hp/tenderloin/proprietary/vendor/lib/libOpenCL.so:system/libOpenCL.so \
+    vendor/hp/tenderloin/proprietary/vendor/lib/libOpenVG.so:system/libOpenVG.so \
+    vendor/hp/tenderloin/proprietary/vendor/lib/libadreno_utils.so:system/libadreno_utils.so \
+    vendor/hp/tenderloin/proprietary/vendor/lib/libc2d2_z180.so:system/libc2d2_z180.so \
+    vendor/hp/tenderloin/proprietary/vendor/lib/libgsl.so:system/libgsl.so \
+    vendor/hp/tenderloin/proprietary/vendor/lib/libsc-a2xx.so:system/libsc-a2xx.so
