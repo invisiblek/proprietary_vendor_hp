@@ -50,6 +50,7 @@ PRODUCT_COPY_FILES += \
     vendor/hp/tenderloin/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
     vendor/hp/tenderloin/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/hp/tenderloin/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+    vendor/hp/tenderloin/proprietary/lib/libuiblur.so:system/lib/libuiblur.so \
     vendor/hp/tenderloin/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/hp/tenderloin/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/hp/tenderloin/proprietary/etc/firmware/wm8958_mbc.wfw:system/etc/firmware/wm8958_mbc.wfw \
